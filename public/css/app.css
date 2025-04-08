@@ -1,0 +1,128 @@
+.card {
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    background: #007bff;
+}
+a.btn:hover {
+    background: #0056b3;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+table thead tr {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+table th, table td {
+    border: 1px solid #dddddd;
+    padding: 8px 15px;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.btn-edit {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+}
+
+.btn-edit:hover {
+    background-color: #0056b3;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+}
+
+.btn-delete:hover {
+    background-color: #a71d2a;
+}
+
+.btn-add {
+    background-color: #28a745;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.btn-add:hover {
+    background-color: #1e7e34;
+}
+
+/* Form styles */
+form {
+    margin: 20px 0;
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+form button {
+    padding: 10px 50px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
